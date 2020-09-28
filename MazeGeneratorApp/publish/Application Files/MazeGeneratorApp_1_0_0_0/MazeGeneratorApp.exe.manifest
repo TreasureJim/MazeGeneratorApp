@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MazeGeneratorApp.exe" version="1.0.0.0" publicKeyToken="6dad53030fc97537" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MazeGeneratorApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MazeGeneratorApp.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MazeGeneratorApp.exe" size="21520">
+      <assemblyIdentity name="MazeGeneratorApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>SX4LGIgiy5q5aikZL1iZ9edIn6C/FbRrb3mTDtUxVpg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MazeGeneratorApp.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-BJC12FM\Liam Boreback" issuerKeyHash="c69395e5ccd2ad3e4569b32e3a2a4ea1f5a014a1" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>SRCvgWDl/OhkeFJgmwmhYXfB1o/Z28+Yy7sUxkzxF5A=</DigestValue></Reference></SignedInfo><SignatureValue>n68T4cfbvFp/PRf23J7LeE7+Q857MCNFgM3mGFEzFtEyI+MJoDkkLeNWt6f1ptMjTQQx7sSA6c3kBTrYcq33P/RaCzfkzxxIcfnNkryLiSJ3WKCjwVsmRQcH0AcdhG70KUS0wv20fd1vcNlrhpUGrV6W4P2tegVtfiILxdio1oM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>5K+vu3mnhEGEPNzw+0ASAn6FrnQfyixR9MhMrH8a11/XRn/j6/G9dnKOPUbL1NYPFw5qzqw2PkB/+9dL9+FCdKqylKxhHzLT2rZguCyCFDeWyjM6N/XDuAs+KAjpkIFyg7wjhc6CyhYkjSJU6eXmtzTsv0FXO9bMZl4l2y3uPfU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9017f14cc614bbcb98cfdbd98fd6c17761a1099b60527864e8fce56081af1049" Description="" Url=""><as:assemblyIdentity name="MazeGeneratorApp.exe" version="1.0.0.0" publicKeyToken="6dad53030fc97537" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-BJC12FM\Liam Boreback</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ljrjKp6D8XqAOBEpfj6Dpcx/d2SNupNtyKD6rvPquDs=</DigestValue></Reference></SignedInfo><SignatureValue>SEPkJTVL8yR7tm9Npt+medtwDJFKOKIKiX5xo0AWYwbQ2V8zFCruOzWDCvWSbGrcgBzaW6doQN2jIgo16e5yBWcPPpHsz/FPdFZtnseYBytjT/hcE7BOLzRvCSmyu2XrPfPjpPO8EuG4btyHpXrCMnqNgB+WBWdAd6Vvcqu3zEI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>5K+vu3mnhEGEPNzw+0ASAn6FrnQfyixR9MhMrH8a11/XRn/j6/G9dnKOPUbL1NYPFw5qzqw2PkB/+9dL9+FCdKqylKxhHzLT2rZguCyCFDeWyjM6N/XDuAs+KAjpkIFyg7wjhc6CyhYkjSJU6eXmtzTsv0FXO9bMZl4l2y3uPfU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICDTCCAXagAwIBAgIQY60uX64A+ppEeJs4laUMVjANBgkqhkiG9w0BAQsFADBFMUMwQQYDVQQDHjoARABFAFMASwBUAE8AUAAtAEIASgBDADEAMgBGAE0AXABMAGkAYQBtACAAQgBvAHIAZQBiAGEAYwBrMB4XDTIwMDkxOTE1Mjk0OFoXDTIxMDkxOTIxMjk0OFowRTFDMEEGA1UEAx46AEQARQBTAEsAVABPAFAALQBCAEoAQwAxADIARgBNAFwATABpAGEAbQAgAEIAbwByAGUAYgBhAGMAazCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA5K+vu3mnhEGEPNzw+0ASAn6FrnQfyixR9MhMrH8a11/XRn/j6/G9dnKOPUbL1NYPFw5qzqw2PkB/+9dL9+FCdKqylKxhHzLT2rZguCyCFDeWyjM6N/XDuAs+KAjpkIFyg7wjhc6CyhYkjSJU6eXmtzTsv0FXO9bMZl4l2y3uPfUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQDeQD+TmK+MHK7+kHySj9VPLeGTrE1OnhQkzvwwbVBIe2I8A3lz2PX9UPJF954JVS+xHy3j3F/LZCCaMiK7VBsHFo5KFO05qFLYt/zbIBOLCH9VO4iQkL0fjabv6Vl8Qsr/i5gO0vv/qKYmZumLDcEOZ/MtqBvK5A40Ljq8IlafOg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
